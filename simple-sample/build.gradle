@@ -1,0 +1,8 @@
+apply plugin: 'application'
+
+dependencies {
+    compile 'com.netflix.archaius:archaius-core:0.6.6'
+    runtime 'org.slf4j:slf4j-log4j12:1.7.12'
+}
+
+mainClassName = 'com.netflix.archaius.samples.simple.SimpleSample'
